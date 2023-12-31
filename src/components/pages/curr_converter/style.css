@@ -1,0 +1,61 @@
+
+.crypto-converter-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.headerclass{
+    text-align: center;
+}
+.commonClass{
+    text-align: center;
+}
+.m-both{
+    margin: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.input-container {
+    margin-bottom: 15px;
+  }
+
+  button {
+    margin: 0;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, 0%);
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .result-container {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    button{
+      transform: translate(-50%, 0%);
+    }
+  }
