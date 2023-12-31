@@ -10,7 +10,7 @@ const RenderComponents = () => {
     <>
       <Router>
         <Routes>
-          <Route path={"/currencyConverter"} element={<Curr />} />
+          <Route path={"/"} element={<Curr />} />
         </Routes>
       </Router>
     </>
